@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Formation from '../components/formation'
 import Three from '../components/three'
 
 
 export default function Profile() {
   return (
-    <div className='flex items-center justify-center flex-col gap-5 '>
+    <div className='flex  flex-col gap-3 '>
       <h1 className='font-medium '>
         Hi, Welcome to my cv
       </h1>
@@ -15,10 +16,9 @@ export default function Profile() {
         I have a passion for web design and love to create for web and mobile devices. 
         <br/>
         <br/>
-        Please see below for my skills and experiences.
         </p>
-
         <Three/>
+        <Formation />
     </div>
   )
 }

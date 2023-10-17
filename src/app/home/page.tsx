@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className={'cursor-pointer'}>
         <p className={'text-lg font-bold'}>Hey, who are you? </p>
-        <div className={'text-base font-light'} onClick={() => router.push('/profile')}>Recruiter</div>
-        <div className={'text-base font-light'} onClick={() => router.push('/guardpage')}>Other</div>
+        <div className={'text-base font-light'} onClick={() => router.push('/profile')}>Recruiter 🤓</div>
+        <div className={'text-base font-light'} onClick={() => router.push('/guardpage')}>Alien 👽</div>
     </div>
   )
 }

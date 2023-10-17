@@ -1,37 +1,9 @@
 'use client'
 import React, { useState } from 'react'
+import { jobs } from '../../utils/utils'
 
 
-const jobs = { 
-  children: [
-    {
-      name: 'Webcargo',
-      info: [
-        {
-          name: 'Frontend Developer',
-          info: [
-            {
-              name: 'Development of new features for the platform with React, Redux, Context API ',
-              info: [
-                {
-                  name: 'Development of new features for the platform with React, Redux, Context API ',
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'Easy virtual fair',
-      info:[
-        {
-          name: 'Frontend Developer',
-        }
-      ]
-    }
-  ]
-}
+
 
 type TJob = {
   name: string,
@@ -43,7 +15,7 @@ const [isExpanded, setIsExpanded] = useState(false)
  
   return <div key={job.name}>
     <div onClick={() => setIsExpanded(!isExpanded)}>
-        <span className={'cursor-pointer font-bold  align-middle mr-2'}>{job?.info && ( isExpanded ? '-' : '+') } </span>  {job.name}
+        <span className={'cursor-pointer font-bold align-middle mr-2'}>{job?.info && ( isExpanded ? '-' : '+') } </span>  <span dangerouslySetInnerHTML={{ __html: job.name}}></span>
     </div>
     {isExpanded && <div style={{paddingLeft: `${depth * 10}px`}}>
       { job.info?.map((info) => <Job key={info.name} job={info} depth={depth + 1} />) }
@@ -53,7 +25,8 @@ const [isExpanded, setIsExpanded] = useState(false)
 
 export default function Three() {
   return (
-    <div className='min-w-full'>
+    <div className='min-w-full max-w-md'>
+      <p className='text-lg mb-1'>Companies who trusted me:</p>
           {jobs.children.map((job : any, index:number) => {
             return (
               <div key={index} className={'flex flex-col ml-4'}>
