@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Formation from '../components/formation'
-import Three from '../components/three'
+import Tree from '../components/tree'
 
 
 export default function Profile() {
@@ -17,7 +17,7 @@ export default function Profile() {
         <br/>
         <br/>
         </p>
-        <Three/>
+        <Tree/>
         <Formation />
     </div>
   )

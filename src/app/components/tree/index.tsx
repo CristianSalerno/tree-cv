@@ -23,7 +23,7 @@ const [isExpanded, setIsExpanded] = useState(false)
   </div>
 }
 
-export default function Three() {
+export default function Tree() {
   return (
     <div className='min-w-full max-w-md'>
       <p className='text-lg mb-1'>Companies who trusted me:</p>
