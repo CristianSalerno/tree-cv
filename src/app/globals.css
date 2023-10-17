@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+.homePage{
+  display: none;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
