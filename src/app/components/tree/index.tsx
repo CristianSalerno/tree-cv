@@ -15,7 +15,8 @@ const [isExpanded, setIsExpanded] = useState(false)
  
   return <div key={job.name}>
     <div onClick={() => setIsExpanded(!isExpanded)}>
-        <span className={'cursor-pointer font-bold align-middle mr-2'}>{job?.info && ( isExpanded ? '-' : '+') } </span>  <span dangerouslySetInnerHTML={{ __html: job.name}}></span>
+        <span className={'cursor-pointer font-bold align-middle mr-2'}>{job?.info && ( isExpanded ? '-' : '+') } 
+        </span>  <span dangerouslySetInnerHTML={{ __html: job.name}}></span>
     </div>
     {isExpanded && <div style={{paddingLeft: `${depth * 10}px`}}>
       { job.info?.map((info) => <Job key={info.name} job={info} depth={depth + 1} />) }
