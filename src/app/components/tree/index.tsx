@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 import { jobs } from '../../utils/utils'
 
 
-
-
 type TJob = {
   name: string,
   info?: TJob[]
