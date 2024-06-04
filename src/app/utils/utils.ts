@@ -1,13 +1,33 @@
 export const jobs = { 
     children: [
       {
+        name: `<span style='font-weight:700'>Osapiens</span>`,
+        info: [
+          {
+            name: 'Senior Frontend Developer',
+            info: [
+              {
+                name: '2024 - Present',
+                info: [
+                  {
+                    name: `Senior frontend developer for track and trace project. Working with React, Redux, Hook, context API, React Router and Typescript.
+                    Testing with Jest and Playwright. Working with a design system library and developing new components.
+                    `,
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         name: `<span style='font-weight:700'>Webcargo</span>`,
         info: [
           {
             name: 'Frontend Developer',
             info: [
               {
-                name: '2022 - Present',
+                name: '2022 - 2024',
                 info: [
                   {
                     name: `Developing new solutions for bookings data analitycs project.
@@ -106,3 +126,57 @@ export const jobs = {
       }
     ]
   }
+
+
+  export const technologies = [
+    {
+      name: 'React',
+      icon: 'React'
+    },
+    {
+      name: 'Redux',
+      icon: 'Redux'
+    },
+    {
+      name: 'playwright',
+      icon: 'Playwright'
+    },
+    {
+      name: 'Jest',
+      icon: 'Jest'
+    },
+    {
+      name: 'BackboneJs',
+      icon: 'BackboneJs'
+    },
+    {
+      name: 'Angular',
+      icon: 'Angular'
+    },
+    {
+      name: 'StencilJs',
+      icon: 'StencilJs'
+    },
+    {
+      name: 'Javascript',
+      icon: 'Javascript'
+    },
+    {
+      name: 'Typescript',
+      icon: 'Typescript'
+    },
+    {
+      name: 'NodeJs',
+      icon: 'NodeJs'
+    },
+    {
+      name: 'Sql',
+      icon: 'Sql'
+    },
+    {
+      name: 'MongoDB',
+      icon: 'MongoDB'
+    },
+    
+
+  ]

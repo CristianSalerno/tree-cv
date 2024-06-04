@@ -15,7 +15,7 @@ export default function Formation() {
             </div>
             <div className='flex flex-row'>
                 <div className='font-bold'>2018</div>
-                <div className='ml-2'> <a className='underline decoration-wavy cursor-pointer text-red-500' target='_blank' href='https://www.credential.net/ee0c9db6-2bc7-49d8-8f10-caa43a4f7b90'>Fullstack Developer Bootcamp</a> - <a className='text-blue-600' target='_blank' href='https://neoland.es/'>Neoland</a> Madrid</div>
+                <div className='ml-2'> <a className='font-bold underline cursor-pointer text-green-600' target='_blank' href='https://www.credential.net/ee0c9db6-2bc7-49d8-8f10-caa43a4f7b90'>Fullstack Developer Bootcamp</a> - <a className='text-blue-600' target='_blank' href='https://neoland.es/'>Neoland</a> Madrid</div>
             </div>
         </div>
     </div>
