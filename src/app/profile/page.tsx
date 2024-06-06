@@ -13,7 +13,7 @@ export default function Profile() {
         Hi, Welcome to my cv
       </h1>
       <p className='text-left'>
-          I'm a <span className='text-red-500'>frontend</span> developer with  <span className='text-red-500'>+5 years of experience</span> in the field of web development 
+          I'm a <span className='text-red-500 font-bold'>frontend</span> developer with  <span className='text-red-500 font-bold' >+5 years of experience</span> in the field of web development 
         <br/>
           last 3 years i been working remotely for different companies in Spain and USA.
         <br/>

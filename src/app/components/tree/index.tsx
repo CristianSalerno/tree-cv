@@ -29,7 +29,7 @@ const [isExpanded, setIsExpanded] = useState(false)
 export default function Tree() {
   return (
     <div className='min-w-full max-w-md'>
-      <p className='text-lg mb-1'>Companies who trusted me:</p>
+      <p className='font-bold text-lg mb-1'>Companies who trusted me:</p>
           {jobs.children.map((job : any, index:number) => {
             return (
               <div key={index} className={'flex flex-col ml-4'}>

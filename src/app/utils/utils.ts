@@ -109,14 +109,14 @@ export const jobs = {
                 name: '2010 - 2011',
                 info: [
                   {
-                    name: `<span style='text-decoration: underline'>Oportunity Management (6 months)</span> <br/>
-                    Trainee developer for an important bussines application, (Oportunity Management) . Visual Studio 2012. Tecnologies, Java , C# , VB.NET, HTML, JavaScript, Jquery, Ajax Toolkit, CSS, WebServices, integration with back-end (SAP) and SQL 2008.
-                    Maintenance and development of Excel application in VBA with Macros and Embebed Objects.
-                    <br/>
-                    <br/>
-                    <span style='text-decoration: underline'>Sales reporting (6 months)</span> <br/>
-                    CIO Sales Reporting-Opportunity Management
-                    Web app , ASP.NET C#, Report Crystar Reports, T-SQL`,
+                    name: `<div>
+                    <span style='text-decoration: underline'>Oportunity Management (6 months)</span>
+                    <p  style='margin-bottom: 20px'>Trainee developer for an important bussines application, (Oportunity Management) . Visual Studio 2012. Tecnologies, Java , C# , VB.NET, HTML, JavaScript, Jquery, Ajax Toolkit, CSS, WebServices, integration with back-end (SAP) and SQL 2008.
+                    Maintenance and development of Excel application in VBA with Macros and Embebed Objects.</p>
+                   
+                    <span style='text-decoration: underline'>Sales reporting (6 months)</span> 
+                    <p>CIO Sales Reporting-Opportunity Management
+                    Web app , ASP.NET C#, Report Crystar Reports, T-SQL</p>`,
                   }
                 ]
               }

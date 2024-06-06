@@ -34,18 +34,16 @@ export default function Technologies() {
   };
 
   return (
-    <div>
-      <h3 className='text-lg mb-1 mt-3 mb-5'>Technologies</h3>
-      <div className='slider'>
-        <div className='slide-track'>
+    <div className="flex flex-col">
+      <h3 className='text-lg mb-1 mt-3 mb-5 font-bold '>Technologies</h3>
+      <div className='flex flex-row flex-wrap gap-3'>
           {
-            technologies.concat(technologies).map((tech: ITechnology, index: number) => (
+            technologies.map((tech: ITechnology, index: number) => (
               <div key={index} className='slide ml-5'>
                 <div>{icons[tech.icon]}</div>
               </div>
             ))
           }
-        </div>
       </div>
     </div>
   );
