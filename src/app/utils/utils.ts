@@ -90,8 +90,7 @@ export const jobs = {
                 name: '2011 - 2019',
                 info: [
                   {
-                    name: `I have been working as a finance consultance during 8 years. This is not the place to talk about it, but if you feel interested about it
-                    you can check my  <a style="color:#0077B5;" className='cursor-pointer text-red-500' target='_blank' href='https://www.linkedin.com/in/cristian-salerno-25027440'>linkedin </a> profile.`,
+                    name: `I have been working as a finance consultance during 8 years. This is not the place to talk about it, but if you feel interested about it you can check my linkedin profile.`,
                   }
                 ]
               }
